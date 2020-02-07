@@ -1,0 +1,29 @@
+{
+  "name": "kabutr",
+  "version": "1.0.0",
+  "description": "Automatic Mail Delivery System ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeamkd/KabutR.git"
+  },
+  "keywords": [
+    "Mail",
+    "NodeMailer",
+    "SMTP",
+    "Technovert"
+  ],
+  "author": "Kunal Dubey , Kaustubh Eppalapalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyeamkd/KabutR/issues"
+  },
+  "homepage": "https://github.com/eyeamkd/KabutR#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "nodemailer": "^6.4.2"
+  }
+}
