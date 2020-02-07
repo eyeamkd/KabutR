@@ -1,10 +1,22 @@
 let nodemailer = require('nodemailer'); 
 let  CronJob = require('cron').CronJob;  
-let mailCreds =  require('./mailCreds.json');
+let mailCreds =  require('./mailCreds.json'); 
+let botToken = require('./botToken.json'); 
+let telegram = require('telegram-bot-api');
 
 let EVENING_MAIL_CONFIRMATION = ''; 
-let MORNING_MAIL_CONFIRMATION = '';
+let MORNING_MAIL_CONFIRMATION = ''; 
 
+let api = new telegram({
+    token: botToken.token,
+    updates: {
+        enabled: true
+}
+});
+api.on('message', function(message)
+{
+   console.log(message);
+});
 let mailerConfig = {    
     service: 'Godaddy',
     host: "smtpout.secureserver.net",  
