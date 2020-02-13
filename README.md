@@ -26,7 +26,9 @@ a specified time send a nicely formatted email to my bosses </p>
   src = "https://user-images.githubusercontent.com/31094327/74411525-76ca8700-4e61-11ea-94f8-f9f70f4fcfd3.png"   
 />  
 <img 
-  src = "https://user-images.githubusercontent.com/31094327/74411906-53540c00-4e62-11ea-801f-e8411ba12d50.jpg"   
+  src = "https://user-images.githubusercontent.com/31094327/74411906-53540c00-4e62-11ea-801f-e8411ba12d50.jpg"    
+  width = "450" 
+  height = "auto"
 />
 
 
