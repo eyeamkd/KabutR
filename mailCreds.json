@@ -1,7 +1,8 @@
 { 
     "email" : "kunal.d@technovert.net",
     "password":"K3k@t3ch!",  
-    "mentorMail":"kunaldubey2297@gmail.com", 
-    "trainerMail":" kunaldubey2297@gmail.com ; kaustubh.e@gmail.com " ,
+    "mentorMail":"siva.s@technovert.com", 
+    "trainerMail":" suhas.b@technovert.com ; sandeep.d@technovert.com ; naveen.d@technovert.com ; aman.t@technovert.com  " , 
+    "testMail" : "kunaldubey2297@gmail.com",
     "chatId" : "1027008012"
 }
